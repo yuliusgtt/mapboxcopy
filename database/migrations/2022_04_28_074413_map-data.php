@@ -18,7 +18,7 @@ class MapData extends Migration
             $table->string('poligon',50);
             $table->double('latitude');
             $table->double('longitude');
-            $table->string('icon',50);
+            $table->string('icon',50)->nullable();
             $table->timestamps();
         });
     }
